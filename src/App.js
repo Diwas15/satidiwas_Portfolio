@@ -139,7 +139,12 @@ function App() {
 </svg>
                 </div>
               </div>
-              <button className='btn'>Source Code</button>
+              <button onClick={()=>{
+                let link = document.createElement('a');
+                link.href = "";
+                link.target = "_blank";
+                // link.click();
+              }} className='btn'>Source Code</button>
             </div>
           </div>
         </div>
@@ -177,7 +182,13 @@ function App() {
                 </div>
 
               </div>
-              <button className='btn'>Source Code</button>
+              <button onClick={()=>{
+                let link = document.createElement('a');
+                
+                link.href = "https://github.com/Diwas15/Private_Chats";
+                link.target = "_blank";
+                link.click();
+              }} className='btn'>Source Code</button>
             </div> 
           </div>  
         </div>
@@ -214,7 +225,12 @@ function App() {
                 </div>
 
               </div>
-              <button className='btn'>Source Code</button>
+              <button onClick={()=>{
+                let link = document.createElement('a');
+                link.href = "https://github.com/Diwas15/Netlify_JJM_Front";
+                link.target = "_blank";
+                link.click();
+              }} className='btn'>Source Code</button>
             </div>
             
           </div>
